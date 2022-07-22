@@ -101,10 +101,6 @@
 	status = "okay";
 };
 
-&pca9555 {
-    status = "okay";
-};
-
 &i2c5 {
     status = "okay";
 };
@@ -122,26 +118,22 @@
 };
 
 &uart4 {
-        status = "okay";
+    status = "okay";
 };
 
 &spi1 {
 	status = "disabled";
 };
 
-&spi_wk2xxx {
-	status = "disabled";
-};
-
 &pcie30phy {
-       status = "okay";
+    status = "okay";
 };
 
 &pcie3x2 {
-        reset-gpios = <&gpio2 RK_PD6 GPIO_ACTIVE_HIGH>;
-        vpcie3v3-supply = <&pcie30_3v3>;
+	reset-gpios = <&gpio2 RK_PD6 GPIO_ACTIVE_HIGH>;
+	vpcie3v3-supply = <&pcie30_3v3>;
 
-       status = "okay";
+	status = "okay";
 };
 
 &its {
