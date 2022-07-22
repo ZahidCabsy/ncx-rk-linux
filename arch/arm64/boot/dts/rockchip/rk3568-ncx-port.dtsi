@@ -360,14 +360,14 @@
 	status = "disabled";
 	clock-frequency = <100000>;
 
-	pca9555: gpio@21 {
-		status = "disabled";
-		compatible = "nxp,pca9555";
-		reg = <0x21>;
-		gpio-controller;
-		#gpio-cells = <2>;
-		gpio-group-num = <500>;
-	};
+	// pca9555: gpio@21 {
+	// 	status = "disabled";
+	// 	compatible = "nxp,pca9555";
+	// 	reg = <0x21>;
+	// 	gpio-controller;
+	// 	#gpio-cells = <2>;
+	// 	gpio-group-num = <500>;
+	// };
 
 	gt1x: gt1x@14 {
 		status = "disabled";
@@ -542,17 +542,17 @@
 	pinctrl-0 = <&spi1m1_pins>;
 	pinctrl-1 = <&spi1m1_pins_hs>;
 
-	spi_wk2xxx: spi_wk2xxx@00{
-		status = "disabled";
-		compatible = "ncx,spi-wk2xxx";
-		reg = <0x00>;
-		spi-max-frequency = <10000000>;
-		power-gpio = <&pca9555 PCA_IO1_7 GPIO_ACTIVE_HIGH>;
-		reset-gpio = <&pca9555 PCA_IO1_1 GPIO_ACTIVE_HIGH>;
-		irq-gpio = <&gpio0 RK_PA6 IRQ_TYPE_EDGE_FALLING>;
-		cs-gpio = <&gpio3 RK_PA1 GPIO_ACTIVE_HIGH>;
+	// spi_wk2xxx: spi_wk2xxx@00{
+	// 	status = "disabled";
+	// 	compatible = "ncx,spi-wk2xxx";
+	// 	reg = <0x00>;
+	// 	spi-max-frequency = <10000000>;
+	// 	power-gpio = <&pca9555 PCA_IO1_7 GPIO_ACTIVE_HIGH>;
+	// 	reset-gpio = <&pca9555 PCA_IO1_1 GPIO_ACTIVE_HIGH>;
+	// 	irq-gpio = <&gpio0 RK_PA6 IRQ_TYPE_EDGE_FALLING>;
+	// 	cs-gpio = <&gpio3 RK_PA1 GPIO_ACTIVE_HIGH>;
 
-	};
+	// };
 };
 
 &pwm7 {
