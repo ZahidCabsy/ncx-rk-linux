@@ -555,8 +555,8 @@
 		compatible = "ncx,spi-wk2xxx";
 		reg = <0x00>;
 		spi-max-frequency = <10000000>;
-		power-gpio = <&pca9555 PCA_IO1_7 GPIO_ACTIVE_HIGH>;
-		reset-gpio = <&pca9555 PCA_IO1_1 GPIO_ACTIVE_HIGH>;
+		//power-gpio = <&pca9555 PCA_IO1_7 GPIO_ACTIVE_HIGH>;
+		//reset-gpio = <&pca9555 PCA_IO1_1 GPIO_ACTIVE_HIGH>;
 		irq-gpio = <&gpio0 RK_PA6 IRQ_TYPE_EDGE_FALLING>;
 		cs-gpio = <&gpio3 RK_PA1 GPIO_ACTIVE_HIGH>;
 
