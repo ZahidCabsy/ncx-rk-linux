@@ -134,14 +134,14 @@
 };
 
 &pcie30phy {
-       status = "okay";
+       status = "disabled";
 };
 
 &pcie3x2 {
         reset-gpios = <&gpio2 RK_PD6 GPIO_ACTIVE_HIGH>;
         vpcie3v3-supply = <&pcie30_3v3>;
 
-       status = "okay";
+       status = "disabled";
 };
 
 &its {
@@ -157,7 +157,7 @@
 };
 
 &gmac0 {
-    status = "okay";
+    status = "disabled";
 };
 
 &gmac1 {
@@ -173,7 +173,7 @@
 };
 
 &uart8 {
-	status = "okay";
+	status = "disabled";
 };
 
 &sdio_pwrseq {
@@ -188,11 +188,11 @@
 
 &wireless_wlan {
 	wifi_chip_type = "ap6275s";
-	status = "okay";
+	status = "disabled";
 };
 
 &wireless_bluetooth {
-	status = "okay";
+	status = "disabled";
 };
 
 &spdif_8ch{
@@ -210,7 +210,7 @@
 };
 
 &sata2 {
-	status = "okay";
+	status = "disabled";
 };
 
 &vcc3v3_vga {

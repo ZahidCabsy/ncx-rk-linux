@@ -417,6 +417,15 @@
 		power-off-in-suspend = <1>;
 		layout = <1>;
 	};
+	
+	eeprom@5e {
+		compatible = "atmel,24mac402";
+		reg = <0x5e>;
+		// pagesize = <16>;
+		// size = <128>;
+		status = "okay";
++	};
++};
 };
 
 &mdio0 {
