@@ -424,8 +424,7 @@
 		// pagesize = <16>;
 		// size = <128>;
 		status = "okay";
-+	};
-+};
+	};
 };
 
 &mdio0 {
