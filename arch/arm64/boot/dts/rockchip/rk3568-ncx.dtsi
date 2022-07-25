@@ -114,7 +114,7 @@
 };
 
 &mc3230 {
-    status = "okay";
+    status = "disabled";
 };
 
 &uart3 {
@@ -206,6 +206,10 @@
 };
 
 &pwm7 {
+	status = "okay";
+};
+
+&pwm6 {
 	status = "okay";
 };
 
