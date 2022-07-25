@@ -460,15 +460,15 @@
 };
 
 &rkisp {
-	status = "okay";
+	status = "disabled";
 };
 
 &rkisp_mmu {
-	status = "okay";
+	status = "disabled";
 };
 
 &rkisp_vir0 {
-	status = "okay";
+	status = "disabled";
 
 	port {
 		#address-cells = <1>;
