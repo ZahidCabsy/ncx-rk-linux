@@ -3205,8 +3205,8 @@
 	pwm7: pwm@fe6e0030 {
 		compatible = "rockchip,rk3568-pwm", "rockchip,rk3328-pwm";
 		reg = <0x0 0xfe6e0030 0x0 0x10>;
-		interrupts = <GIC_SPI 83 IRQ_TYPE_LEVEL_HIGH>,
-			     <GIC_SPI 87 IRQ_TYPE_LEVEL_HIGH>;
+		//interrupts = <GIC_SPI 83 IRQ_TYPE_LEVEL_HIGH>,
+		//	     <GIC_SPI 87 IRQ_TYPE_LEVEL_HIGH>;
 		#pwm-cells = <3>;
 		pinctrl-names = "active";
 		pinctrl-0 = <&pwm7_pins>;

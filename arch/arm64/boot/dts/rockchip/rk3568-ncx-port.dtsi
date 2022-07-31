@@ -562,7 +562,7 @@
 
 	};
 };
-
+/*
 &pwm7 {
 	status = "disabled";
 
@@ -591,6 +591,7 @@
 			<0xe5   KEY_RIGHT>;
 	};
 };
+*/
 
 &pinctrl {
 	cam {

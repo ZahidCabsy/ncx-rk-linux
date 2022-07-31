@@ -114,7 +114,7 @@
 };
 
 &hym8563 {
-    status = "okay";
+    status = "disabled";
 };
 
 &mc3230 {
