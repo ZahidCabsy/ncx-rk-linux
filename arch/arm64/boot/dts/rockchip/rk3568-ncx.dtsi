@@ -123,10 +123,12 @@
 
 &uart3 {
 	status = "okay";
+	dma-names = "tx", "rx";
 };
 
 &uart4 {
-        status = "okay";
+     status = "okay";
+	dma-names = "tx", "rx";
 };
 
 &spi1 {
