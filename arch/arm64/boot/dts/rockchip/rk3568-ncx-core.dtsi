@@ -590,6 +590,10 @@
 	status = "okay";
 };
 
+&pwm7 {
+	status = "okay";
+};
+
 &rk_rga {
 	status = "okay";
 };
