@@ -334,7 +334,7 @@ struct tty_struct {
 	spinlock_t files_lock;		/* protects tty_files list */
 	struct list_head tty_files;
 
-#define N_TTY_BUF_SIZE 4096
+#define N_TTY_BUF_SIZE 40960
 
 	int closing;
 	unsigned char *write_buf;
