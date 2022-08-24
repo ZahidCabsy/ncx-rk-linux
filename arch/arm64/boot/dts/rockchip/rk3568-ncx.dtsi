@@ -81,7 +81,7 @@
 &i2c0 {
     status = "okay";
 
-/*	fusb0: fusb30x@22 {
+	fusb0: fusb30x@22 {
 		compatible = "fairchild,fusb302";
 		reg = <0x22>;
 		pinctrl-names = "default";
@@ -89,9 +89,9 @@
 		int-n-gpios = <&gpio0 RK_PC1 GPIO_ACTIVE_HIGH>;
 		fusb340-switch-gpios = <&gpio3 RK_PC2 GPIO_ACTIVE_HIGH>;
 		vbus-5v-gpios = <&gpio0 RK_PA5 GPIO_ACTIVE_HIGH>;
-		status = "okay";
+		status = "disabled";
 	};
-	*/
+	
 };
 
 &i2c1 {
