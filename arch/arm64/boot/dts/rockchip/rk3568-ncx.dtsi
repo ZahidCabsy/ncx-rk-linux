@@ -81,7 +81,7 @@
 &i2c0 {
     status = "okay";
 
-	fusb0: fusb30x@22 {
+/*	fusb0: fusb30x@22 {
 		compatible = "fairchild,fusb302";
 		reg = <0x22>;
 		pinctrl-names = "default";
@@ -91,6 +91,7 @@
 		vbus-5v-gpios = <&gpio0 RK_PA5 GPIO_ACTIVE_HIGH>;
 		status = "okay";
 	};
+	*/
 };
 
 &i2c1 {
