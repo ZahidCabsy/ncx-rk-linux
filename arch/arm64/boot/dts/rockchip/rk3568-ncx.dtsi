@@ -104,7 +104,7 @@
 };
 
 &i2c4 {
-	status = "okay";
+	status = "disabled";
 };
 
 &pca9555 {
