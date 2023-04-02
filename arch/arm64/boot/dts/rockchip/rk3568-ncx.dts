@@ -24,7 +24,7 @@
         status = "okay";
 
         adc@0 {
-                compatible = "microchip,mcp3427";
+                compatible = "microchip,mcp3428";
                 reg = <0x68>;
         };
 };
@@ -36,7 +36,7 @@
         status = "okay";
 
         adc@1 {
-                compatible = "microchip,mcp3428";
+                compatible = "microchip,mcp3427";
                 reg = <0x68>;
         };
 };
@@ -52,13 +52,6 @@
 		reg = <0x5e>;
 		status = "okay";
 	};
-
-	adc@1 {
-        	compatible = "microchip,mcp3428";
-       		reg = <0x68>;
-	};
-
-
 };
 
 &uart9 {
